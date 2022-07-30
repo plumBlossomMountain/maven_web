@@ -14,6 +14,7 @@ public class MyServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         System.out.println("hello git！");
+        System.out.println("hello github！");
         doGet(request, response);
     }
 
