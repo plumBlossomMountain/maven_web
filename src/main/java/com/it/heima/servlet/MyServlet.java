@@ -18,6 +18,7 @@ public class MyServlet extends HttpServlet {
         System.out.println("hello github！！");
         System.out.println("master test ");
         System.out.println("hot-fix test ");
+        System.out.println("push test ");
         doGet(request, response);
     }
 
